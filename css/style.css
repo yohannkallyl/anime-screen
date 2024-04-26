@@ -23,6 +23,11 @@ header a{
     color: #eee;
     margin-right: 40px;
 }
+
+header p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 /* carousel */
 .carousel{
     height: 100vh;
@@ -119,7 +124,7 @@ header a{
 
 
 
-/* thumbail */
+/* thumbnail */
 .thumbnail{
     position: absolute;
     bottom: 50px;
@@ -197,6 +202,8 @@ header a{
 
 /* animação*/
 
+
+/*posição inicial*/
 .carousel .list .item:nth-child(1){
     z-index: 1;
 }

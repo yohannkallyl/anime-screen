@@ -6,10 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const prevButton = document.querySelector("#prev")
     const nextButton = document.querySelector("#next")
     const carouselList = document.querySelector(".carousel .list")
-    const backgroundImage = document.querySelector(".carousel .list .item img")
-    const titleElement = document.querySelector(".carousel .list .item .title")
-    const descriptionElement = document.querySelector(".carousel .list .item .des")
-    const ratingElement = document.querySelector(".carousel .list .item .rating")
+    
 
     //mudar imagens anterior
 
